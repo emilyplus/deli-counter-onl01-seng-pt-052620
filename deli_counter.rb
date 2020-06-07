@@ -8,6 +8,7 @@ def line(line_array)
       "#{index}, #{name}"
     end
     puts "The line is currently: #{name_array.join(' ')}"
+    # binding.pry
   end
 end
 
@@ -18,7 +19,7 @@ end
 
 def now_serving(line_array)
   if line_array.empty?
-    puts "There is nobody wting to be served!"
+    puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{line_array.shift}."
   end
