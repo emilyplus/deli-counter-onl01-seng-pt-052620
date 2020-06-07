@@ -1,4 +1,5 @@
 require 'pry'
+#Write your code here.
 def line(line_array)
   if line_array.size == 0
     puts "The line is currently empty."
@@ -12,7 +13,7 @@ end
 
 def take_a_number(line_array, name)
   line_array << name
-  puts "Welcome #{name}. You are number #{line_array.length} in line."
+  puts "Welcome, #{name}. You are number #{line_array.length} in line."
 end
 
 def now_serving(line_array)
