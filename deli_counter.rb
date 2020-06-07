@@ -5,9 +5,9 @@ def line(line_array)
     puts "The line is currently empty."
   else
     name_array = line_array.map.with_index(1) do |name,index|
-      "#{index}, #{name}"
+      "#{index}. #{name}"
     end
-    puts "The line is currently: #{name_array.join(' ')}."
+    puts "The line is currently: #{name_array.join(' ')}"
     # binding.pry
   end
 end
